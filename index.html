@@ -27,11 +27,11 @@
       offering!</p>
 
     <ul>
-      <li><button class="btn btn1"><i class="fa-solid fa-face-frown fa-3x"></i></button></li>
-      <li><button class="btn btn2"><i class="fa-solid fa-face-frown-open fa-3x"></i></button></li>
-      <li><button class="btn btn3"><i class="fa-solid fa-face-meh fa-3x"></i></button></li>
-      <li><button class="btn btn4"><i class="fa-solid fa-face-grin fa-3x"></i></button></li>
-      <li><button class="btn btn5"><i class="fa-solid fa-face-grin-beam fa-3x"></i></button></li>
+      <li><button class="btn btn1" onclick="rate('1')" id="rate1"><i class="fa-solid fa-face-frown fa-3x"></i></button></li>
+      <li><button class="btn btn2" onclick="rate('2')" id="rate2"><i class="fa-solid fa-face-frown-open fa-3x"></i></button></li>
+      <li><button class="btn btn3"  onclick="rate('3')" id="rate3"><i class="fa-solid fa-face-meh fa-3x"></i></button></li>
+      <li><button class="btn btn4"  onclick="rate('4')" id="rate4"><i class="fa-solid fa-face-grin fa-3x"></i></button></li>
+      <li><button class="btn btn5"  onclick="rate('5')" id="rate5"><i class="fa-solid fa-face-grin-beam fa-3x"></i></button></li>
     </ul>
 
     <button class="btn-submit" id="submit">Submit</button>
@@ -47,7 +47,7 @@
 
     <img src="images/illustration-thank-you.svg" alt="">
 
-    <p class="selected">You selected 1 out of 5
+    <p class="selected" id="score">
     </p>
 
     <h2>Thank you!</h2>
@@ -58,75 +58,6 @@
     <button class="btn-submit" id="rate-again">Rate Again</button>
   
   </div>
-
-  <div class="thankyou hidden2">
-
-    <img src="images/illustration-thank-you.svg" alt="">
-
-    <p class="selected">You selected 2 out of 5
-    </p>
-
-    <h2>Thank you!</h2>
-
-    <p>We appreciate you taking the time to give a rating. If you ever need more support,
-      don't hesitate to get in touch!</p>
-  
-    <button class="btn-submit" id="rate-again">Rate Again</button>
-  
-
-    <div class="thankyou hidden3">
-
-      <img src="images/illustration-thank-you.svg" alt="">
-  
-      <p class="selected">You selected 3 out of 5
-      </p>
-  
-      <h2>Thank you!</h2>
-  
-      <p>We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!</p>
-    
-      <button class="btn-submit" id="rate-again">Rate Again</button>
-    
-    </div>
-
-    <div class="thankyou hidden4">
-
-      <img src="images/illustration-thank-you.svg" alt="">
-  
-      <p class="selected">You selected 4 out of 5
-      </p>
-  
-      <h2>Thank you!</h2>
-  
-      <p>We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!</p>
-    
-      <button class="btn-submit" id="rate-again">Rate Again</button>
-    
-    </div>
-
-    <div class="thankyou hidden5">
-
-      <img src="images/illustration-thank-you.svg" alt="">
-  
-      <p class="selected">You selected 5 out of 5
-      </p>
-  
-      <h2>Thank you!</h2>
-  
-      <p>We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!</p>
-    
-      <button class="btn-submit" id="rate-again">Rate Again</button>
-    
-    </div>
-
-
-  </div>
-
-
-  
 
   
   <!-- Thank you state end -->
