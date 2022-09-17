@@ -4,6 +4,7 @@
 
 
 ## Changed some ui design, colour scheme and functionality as compared to original challenge.
+(still some changes to be made)
 
 ## Welcome! 👋
 
