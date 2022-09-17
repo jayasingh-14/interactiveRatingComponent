@@ -2,6 +2,9 @@
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
+
+## Changed some ui design, colour scheme and functionality as compared to original challenge.
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
