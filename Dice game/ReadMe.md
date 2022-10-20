@@ -14,7 +14,7 @@ Make a dice game, when pressed a button throws a random number. Make it using Ht
 
 - Fork the repository
 - Clone the Forked Repository
-- • Choose a Problem statement from this Javascript Repository and provide a solution in any programming language of your choice.
+- Choose a Problem statement from this Javascript Repository and provide a solution in any programming language of your choice.
 - Add your solution to the folder, along with the problem statement.
 - Now, you are ready to make a pull request.
 

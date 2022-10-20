@@ -14,7 +14,7 @@ Design a palindrome checker website using Html, Css, Javascript.
 
 - Fork the repository
 - Clone the Forked Repository
-- • Choose a Problem statement from this Javascript Repository and provide a solution in any programming language of your choice.
+- Choose a Problem statement from this Javascript Repository and provide a solution in any programming language of your choice.
 - Add your solution to the folder, along with the problem statement.
 - Now, you are ready to make a pull request.
 
