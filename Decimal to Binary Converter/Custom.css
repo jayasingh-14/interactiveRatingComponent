@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400px;
+  background: linear-gradient(-45deg, #c73552, #d15319, #6464e2, #44c9c9);
+  height: 100vh;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.content-wrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background: #fff;
+  padding: 30px;
+}
+.content-wrapper h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #d15319;
+}
+.content {
+  width: 100%;
+  padding: 10px;
+}
+.content form {
+}
+.content form input[type="number"] {
+  border: none;
+  background: #eee;
+  padding: 16px 6px;
+  border-bottom: 2px solid #d15319;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+}
+.content form .result-display {
+  margin: 25px 0;
+  border: 1px solid #d15319;
+  padding: 20px 6px;
+  text-align: center;
+}
+.result-display h2 {
+  color: #d15319;
+  letter-spacing: 1px;
+}
+.content form .button {
+  margin: 0 auto;
+  display: block;
+  padding: 12px 35px;
+  margin-top: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  background: #6464e2;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
